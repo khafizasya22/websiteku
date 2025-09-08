@@ -1,0 +1,76 @@
+body{
+    background-repeat: no-repeat ;
+    background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    color: white;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: right;
+    
+}
+header{
+        display: flex;
+        text-align:  right;
+        justify-content: center;
+        background-color: rgb(53, 47, 47);
+        
+}
+img{
+    width: 80px;
+    margin-left: 50px;
+    display: block;
+    border-radius: 50%;
+}
+
+ul li a{
+    text-decoration: none;
+     color: white;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+*{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 920px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(67, 255, 67);
+    padding: 8px 16px;
+}
+
+header ul li a.active,
+header ul li a:hover{
+    color: rgb(172, 158, 32);
+}
